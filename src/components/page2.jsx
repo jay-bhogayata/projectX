@@ -56,7 +56,7 @@ const Page2 = () => {
               </div>
           </div>
           <div className="img-content col-lg-6">
-            <img className="img2" src={Pic} alt="img2" width="450vw" />
+            <img className="img2" src={Pic} alt="img2" width="350vw" />
           </div>
         </div>
       </div>
