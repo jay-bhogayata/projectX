@@ -1,24 +1,49 @@
-import React from "react";
-// import Button from "./button";
+import React, { useState } from "react";
 import Pic from "../bgimg2.png";
 import Navbarr from "./navbar";
-// import Footer from "./footer";
 import { Label, Input } from "reactstrap";
 import "../styleComponents/page2.css";
+import Sem1 from "../sem1";
+import Sem2 from "../sem2";
+import Opt from "./options";
 
 const Page2 = () => {
-  // const sem = useRef();
-  // const sub = useRef();
+  // var subject = null
   // var semester1 = ["FOP", "FOC", "FA", "CS", "BM", "FOW"];
   // var semester2 = ["PYTHON", "RDBMS", "PHP", "BSE", "CSII"];
-  // const [subject, setSubject] = useState("");
+  const [val, setVal] = useState(0);
+  
+  const ChangeSem = (newSem) => {
+    setVal(newSem);
+  }
 
-  // if(sem.current.props.children[1].props.value === "semester 1") {
-  //   setSubject(subject = semester1)
+  // if (val === "1") {
+  //   subject = semester1;
+  //   console.log(subject);
+  // } else if (val === "2") {
+  //   subject = semester2;
+  //   console.log(subject);
   // } else {
-  //   setSubject(subject = semester2)
+  //   subject = null;
   // }
 
+  const CreateOption = (option) => {
+    return <Opt key={option.id} name={option.name} />
+  }
+
+  const ValidOption = () => {
+    var valid = null;
+    if (val === "1") {
+      valid = Sem1.map(CreateOption)
+    } else if (val === "2") {
+      valid = Sem2.map(CreateOption)
+    } else {
+      return;
+    }
+    return (
+      valid
+    )
+  }
   return (
     <>
       <Navbarr />
@@ -34,13 +59,15 @@ const Page2 = () => {
                 name="semester"
                 type="select"
                 // ref={sem}
+                onChange={(e) => ChangeSem(e.target.value)}
+                value={val}
               >
-                <option>Select your semester</option>
-                <option value="semester 1">semester 1</option>
-                <option value="semester 2">semester 2</option>
+                <option value="0">Select your semester</option>
+                <option value="1">semester 1</option>
+                <option value="2">semester 2</option>
               </Input>
             </div>
-            
+
             <div className="inputs">
               <Label htmlFor="subSelect">
                 <h4>Select your subject:</h4>
@@ -52,11 +79,12 @@ const Page2 = () => {
                 // ref={sub}
               >
                 <option>Select your subject</option>
+                {ValidOption()}
               </Input>
-              </div>
+            </div>
           </div>
           <div className="img-content col-lg-6">
-            <img className="img2" src={Pic} alt="img2" width="350vw" />
+            <img className="img2" src={Pic} alt="img2" width="500vw" />
           </div>
         </div>
       </div>

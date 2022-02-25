@@ -1,6 +1,7 @@
 .text-content > h2{
     margin-top: 5rem;
     font-weight: 600;
+    font-weight: 900;
     text-shadow: 0 0 3px #0000;
     background: linear-gradient(to right, #00fa70, #00fa70, #00fa9a, #00fafa, #00fa85);
     background-size: 400%;

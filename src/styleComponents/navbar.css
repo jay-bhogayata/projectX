@@ -7,16 +7,17 @@
     color: #fff;
 }
 
-.nav-link{
+.nav-link, #h{
     color: rgba(255, 255, 255, 0.664);
-    text-decoration: none;
+    text-decoration: none !important;
+    border: none;
 }
 
 a{
     text-decoration: none;
 }
 
-.nav-link:hover{
+.nav-link:hover, #h:hover{
     color: #fff;
 }
 
@@ -25,8 +26,3 @@ a{
     backdrop-filter: blur(10px);
 }
 
-#text{
-    color: #fff;
-    filter: blur(0px);
-    z-index: 2;
-}
