@@ -1,0 +1,32 @@
+#icon, .navbar-brand{
+    color: #fff;
+    font-weight: 700;
+}
+
+.navbar-brand:hover{
+    color: #fff;
+}
+
+.nav-link{
+    color: rgba(255, 255, 255, 0.664);
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: #fff;
+}
+
+#nav{
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+}
+
+#text{
+    color: #fff;
+    filter: blur(0px);
+    z-index: 2;
+}

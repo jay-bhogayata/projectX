@@ -1,0 +1,49 @@
+.container{
+    margin-top: 5rem;
+}
+
+.img{
+    margin-top: -5rem;
+}
+
+.foot{
+    color: rgba(255, 255, 255, 0.61);
+    background-color: #141E27;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 .3rem .8rem rgba(255, 255, 255, 0.267) inset;
+}
+
+.text-content{
+    margin-top: 2rem;
+    color: rgb(0, 201, 0);
+    font-weight: 700;
+    font-family: Arial;
+    padding: 1.5rem;
+    height: 45%; 
+}
+
+.text-content > h1, h3{
+    font-weight: 900;
+    text-shadow: 0 0 3px #0000;
+    background: linear-gradient(to right, #00fa70, #00fa70, #00fa9a, #00fafa, #00fa85);
+    background-size: 400%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 10s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 350%;
+    }
+}
+
+.text-content > p{
+    margin-top: 3rem;
+    line-height: 2;
+    color: rgba(255, 255, 255, 0.61);
+}
