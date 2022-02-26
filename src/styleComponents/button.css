@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .btn{
   position: relative;
 }
 
 .animated-button {
   /* background: linear-gradient(-30deg, #3e4e4e 50%, #252b2b 50%); */
-  background-image: linear-gradient(to right, #06003d , #5154e9 90%);
+  /* background-image: linear-gradient(to right, #06003d , #5154e9 90%); */
+  background-image: linear-gradient(to right top, #2e6bc6, #5868db, #885fe8, #b94aeb, #eb12e4);
   font-family: Roboto;
   padding: 20px 40px;
   margin: 12px;
@@ -13,7 +15,8 @@
           transform: translate(0%, 0%);
           border: none;
   overflow: hidden;
-  color: #d4e0f7;
+  
+  color: #fff;
   font-size: 15px;
   font-weight: 700;
   letter-spacing: 2.5px;

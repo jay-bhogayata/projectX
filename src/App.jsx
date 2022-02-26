@@ -8,9 +8,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Page1 from "./components/page1";
 import Page2 from "./components/page2";
+import { Navbar } from "reactstrap";
 
 function App() {
     return (
+        
       <>
         <Router>
           <Routes>

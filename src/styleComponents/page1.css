@@ -1,13 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
 .container{
     margin-top: 5rem;
 }
 
 .img{
-    width: 45%;
+    /* background-color: #fff; */
+    width: 100%;
+    width: 50%;
     position: relative;
     top: 25%;
     left: 15%;
     margin-bottom: 3rem;
+    
 }
 
 .foot{
@@ -23,8 +28,12 @@
     padding: 1.5rem;
     height: 45%; 
 }
-
+.text-content{
+    margin-top: 50px;
+}
 .text-content > h1, h3{
+   
+    font-family: Poppins;
     font-weight: 900;
     text-shadow: 0 0 3px #0000;
     background-size: 400%;
@@ -48,4 +57,5 @@
     margin-top: 3rem;
     line-height: 2;
     color: rgba(255, 255, 255, 0.61);
+    font-size: 1.2rem;
 }

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, {useState} from "react";
 import "../styleComponents/navbar.css";
 import { Link } from "react-router-dom";
@@ -7,15 +8,19 @@ const Navbarr = () => {
   return (
     <nav id="nav" className="navbar navbar-expand-lg fixed-top">
       <div id="text" className="container-fluid">
+        
         <img
           src={Logo}
           alt=""
           width="50px"
           className="d-inline-block align-text-top me-2"
+          id="logo-img"
         />
         <a className="navbar-brand" href="#">
           Study Buddy
         </a>
+       
+        
         <button
           className="navbar-toggler"
           type="button"
@@ -107,7 +112,7 @@ const Navbarr = () => {
               </ul>
             </li>
           </ul>
-          <form className="d-flex">
+          {/* <form className="d-flex">
             <input
               className="form-control me-2"
               type="search"
@@ -117,7 +122,7 @@ const Navbarr = () => {
             <button className="btn btn-outline-light" type="submit">
               Search
             </button>
-          </form>
+          </form> */}
         </div>
       </div>
     </nav>

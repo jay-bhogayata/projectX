@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 body{
-    background-color: #111111;
-    font-family: 'Times New Roman', Times, serif;
+    /* background-color: #111111; */
+    background-color:#0E1924;
+    font-family: 'Lato', sans-serif;
 }
 
 body > h1, h2, h3, h4{

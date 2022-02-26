@@ -16,14 +16,26 @@ option{
 }
 
 .img2{
-    width: 45%;
+   
+    width: 70%;
     position: relative;
-    left: 30%;
+    left: 00%;
     margin: 5rem auto -5rem auto
 }
 
 .inputs{
     margin: 1.5rem;
     padding: 1rem;
-    width: 100%;
+    width: 70%;
+}
+@media screen and (max-width: 768px){
+    .inputs{
+        width: 80%;
+        justify-content: center;
+    }
+    .img2{
+        margin-left: 50px;
+    }
+
+    
 }

@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,200;1,400&display=swap');
 .navbar-brand{
     color: #fff;
     font-weight: 700;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .navbar-brand:hover{
@@ -17,9 +20,14 @@
 #hamburger:hover{
     background: #515151;
 }
+.nav-link{
+    margin: 0 10px
+}
 
 .nav-link, #h{
-    color: rgba(255, 255, 255, 0.664);
+    /* color: rgba(255, 255, 255, 0.664); */
+    color: #fff;
+    font-size: 1.2rem;
     text-decoration: none !important;
     border: none;
 }
@@ -29,11 +37,25 @@ a{
 }
 
 .nav-link:hover, #h:hover{
-    color: #fff;
+    color: #6633CC;
 }
 
 #nav{
     background-color: transparent;
     backdrop-filter: blur(10px);
 }
-
+.collapse{
+    margin-left: 870px;
+}
+#logo-img{
+    margin-left: 60px;
+}
+@media screen and (max-width: 768px){
+    .collapse{
+        margin-left: 0px;
+    }
+    #logo-img{
+        margin-left: 0px;
+    }
+}
+    
