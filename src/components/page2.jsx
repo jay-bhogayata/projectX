@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Pic from "../bgimg2.png";
+import Pic from "../images/bgimg2.png";
 import Navbarr from "./navbar";
 import { Label, Input } from "reactstrap";
 import "../styleComponents/page2.css";
@@ -49,6 +49,9 @@ const Page2 = () => {
       <Navbarr />
       <div id="pg2" className="container">
         <div className="row">
+          <div className="img-content col-lg-6">
+            <img className="img2" src={Pic} alt="img2" />
+          </div>
           <div className="text-content col-lg-6">
             <div className="inputs">
               <Label htmlFor="semSelect">
@@ -82,9 +85,6 @@ const Page2 = () => {
                 {ValidOption()}
               </Input>
             </div>
-          </div>
-          <div className="img-content col-lg-6">
-            <img className="img2" src={Pic} alt="img2" width="500vw" />
           </div>
         </div>
       </div>

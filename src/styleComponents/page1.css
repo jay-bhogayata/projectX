@@ -3,7 +3,11 @@
 }
 
 .img{
-    margin-top: -5rem;
+    width: 45%;
+    position: relative;
+    top: 25%;
+    left: 15%;
+    margin-bottom: 3rem;
 }
 
 .foot{
@@ -15,8 +19,6 @@
 }
 
 .text-content{
-    margin-top: 2rem;
-    color: rgb(0, 201, 0);
     font-weight: 700;
     padding: 1.5rem;
     height: 45%; 
@@ -25,11 +27,12 @@
 .text-content > h1, h3{
     font-weight: 900;
     text-shadow: 0 0 3px #0000;
-    background: linear-gradient(to right, #00fa70, #00fa70, #00fa9a, #00fafa, #00fa85);
     background-size: 400%;
+    color: #62fdc2;
+    /* background: linear-gradient(to right, #00fa70, #00fa70, #00fa9a, #00fafa, #00fa85);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    animation: animate 10s linear infinite;
+    animation: animate 10s linear infinite; */
 }
 
 @keyframes animate{

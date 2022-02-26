@@ -1,10 +1,21 @@
-#icon, .navbar-brand{
+.navbar-brand{
     color: #fff;
     font-weight: 700;
 }
 
 .navbar-brand:hover{
     color: #fff;
+}
+
+#hamburger{
+    background: #353535;
+    color: #fff;
+    width: 60px;
+    height: 50px;
+}
+
+#hamburger:hover{
+    background: #515151;
 }
 
 .nav-link, #h{

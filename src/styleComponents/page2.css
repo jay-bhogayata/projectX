@@ -1,17 +1,25 @@
-.text-content > h2{
+h4{
     margin-top: 5rem;
     font-weight: 600;
     font-weight: 900;
-    text-shadow: 0 0 3px #0000;
-    background: linear-gradient(to right, #00fa70, #00fa70, #00fa9a, #00fafa, #00fa85);
+    /* text-shadow: 0 0 3px rgb(0, 107, 14); */
+    color: #62fdc2;
+    /* background: linear-gradient(to right, #00fa70, #00fa70, #00fa9a, #00fafa, #00fa85); */
     background-size: 400%;
-    -webkit-text-fill-color: transparent;
+    /* -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    animation: animate 10s linear infinite;
+    animation: animate 10s linear infinite; */
+}
+
+option{
+    text-transform: uppercase;
 }
 
 .img2{
-    margin-bottom: 3rem;
+    width: 45%;
+    position: relative;
+    left: 30%;
+    margin: 5rem auto -5rem auto
 }
 
 .inputs{

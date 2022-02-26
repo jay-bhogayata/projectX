@@ -1,27 +1,27 @@
 const Sem1 = [
     {
         id: 1,
-        name: "FOP"
+        name: "Fundamental of programming with C language"
     },
     {
         id: 2,
-        name: "FOC"
+        name: "fundamentals of computer"
     },
     {
         id: 3,
-        name: "FOW"
+        name: "fundamental of Web development"
     },
     {
         id: 4,
-        name: "BM"
+        name: "Basic Mathematics"
     },
     {
         id: 5,
-        name: "CS"
+        name: "communication Skills"
     },
     {
         id: 6,
-        name: "FA"
+        name: "Financial accounting"
     }
 ]
 

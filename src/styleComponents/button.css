@@ -5,9 +5,9 @@
 .animated-button {
   /* background: linear-gradient(-30deg, #3e4e4e 50%, #252b2b 50%); */
   background-image: linear-gradient(to right, #06003d , #5154e9 90%);
+  font-family: Roboto;
   padding: 20px 40px;
   margin: 12px;
-  margin-bottom: 5rem;
   display: inline-block;
   -webkit-transform: translate(0%, 0%);
           transform: translate(0%, 0%);

@@ -5,7 +5,7 @@ const Sem2 = [
     },
     {
         id: 2,
-        name: "RDBMS"
+        name: "relational database management system"
     },
     {
         id: 3,
@@ -13,11 +13,11 @@ const Sem2 = [
     },
     {
         id: 4,
-        name: "BSE"
+        name: "Basic Software Engineering"
     },
     {
         id: 5,
-        name: "CCII"
+        name: "communication Skills II"
     }
 ]
 
