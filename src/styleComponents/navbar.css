@@ -45,17 +45,20 @@ a{
     backdrop-filter: blur(10px);
 }
 .collapse{
-    margin-left: 870px;
+    margin-left: 820px;
 }
 #logo-img{
     margin-left: 60px;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 900px){
     .collapse{
         margin-left: 0px;
     }
     #logo-img{
         margin-left: 0px;
+    }
+    .navbar-brand{
+        font-size: 1.5rem;
     }
 }
     
